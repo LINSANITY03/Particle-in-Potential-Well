@@ -4,10 +4,10 @@ This project demonstrates the visualization of the wavefunction and probability 
 
 ## Table of Contents
 
-1. [Installation](https://github.com/LINSANITY03/Particle-in-Potential-Well#installation)
-2. [Usage](https://github.com/LINSANITY03/Particle-in-Potential-Well#usage)
-3. [How It Works](https://github.com/LINSANITY03/Particle-in-Potential-Well#how-it-works)
-4. [Concepts](https://github.com/LINSANITY03/Particle-in-Potential-Well#concepts)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [How It Works](#how-it-works)
+4. [Concepts](#concepts)
 
 ## Installation
 To run this project on your local machine, ensure that you have the necessary dependencies installed. The following steps outline how to set up the project:
