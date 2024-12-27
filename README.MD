@@ -14,7 +14,7 @@ To run this project on your local machine, ensure that you have the necessary de
 
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/1D-Infinite-Potential-Well.git
+git clone https://github.com/LINSANITY03/Particle-in-Potential-Well
 ```
 
 2. Create a virtual environment:
@@ -42,9 +42,7 @@ You can modify the parameters in the script from **config.yml** to observe how t
 
 ## How It Works
 1. **Schrödinger Equation**: The core of this project is the time-independent Schrödinger equation, which governs the wavefunction of a quantum particle. For a particle in a 1D infinite potential well, the equation simplifies to:
-$
--\frac{\hbar^2}{2m}[ \frac{\partial^2 \psi(x)}{\partial t^2}]=E\psi(x)
-$
+$-\frac{\hbar^2}{2m}[ \frac{\partial^2 \psi(x)}{\partial t^2}]=E\psi(x)$
 where $\psi(x)$ is the wavefunction, E is the energy, $\hbar$ is the reduced Planck constant, and m is the particle's mass.
 
 2. **Numerical Solution**: Since the Schrödinger equation does not have a simple analytical solution for arbitrary parameters, numerical methods are used to solve for the wavefunction $\psi$ in the potential well.
@@ -57,9 +55,7 @@ This project illustrates the following key concepts from quantum mechanics:
 - Quantum States: The wavefunction of a particle in the well can be described by discrete quantum states, each corresponding to a specific energy level.
 
 - Energy Quantization: The energy levels in an infinite potential well are quantized, and the particle can only occupy specific energy states. The energies are given by:
-$
-E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}
-$
+$E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}$
 where n is a positive number, and L is the width of the potential well.
 
 - Wavefunction Behavior: The wavefunction exhibits different behaviors for different quantum numbers n. For example:
