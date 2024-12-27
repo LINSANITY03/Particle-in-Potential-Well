@@ -1,0 +1,5 @@
+params:
+  hbar: 1.0545718e-34 # Planck's constant (J·s)
+  me: 9.10938356e-31  # Mass of an electron (kg)
+  Lp: 1.0e-9          # Width of the potential well (1 nm)
+  energy_level: 3     # Indexing the wavefunctions and probability density.
