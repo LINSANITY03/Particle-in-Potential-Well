@@ -8,6 +8,8 @@ This project demonstrates the visualization of the wavefunction and probability 
 2. [Usage](#usage)
 3. [How It Works](#how-it-works)
 4. [Concepts](#concepts)
+5. [Output](#output)
+6. [Conclusion](#conclusion)
 
 ## Installation
 To run this project on your local machine, ensure that you have the necessary dependencies installed. The following steps outline how to set up the project:
@@ -63,3 +65,32 @@ where n is a positive number, and L is the width of the potential well.
     - Higher values of n introduce more nodes and represent excited states.
 
 - Probability Density: The square of the absolute value of the wavefunction $|\psi^2|$ represents the probability density of finding the particle at a given position within the well.
+
+## Output
+
+1. Plot of the wavefunctions and probability density for the first three quantum states.
+
+<p align="center">
+  <img src="figures/wave_function.png" alt="Algorithm_game" height="360" width="640">
+</p>
+
+<p align="center">
+  <img src="figures/probability_density.png" alt="Algorithm_game" height="360" width="640">
+</p>
+
+2. Energy levels
+
+The calculated energy levels for the first three quantum states are:
+
+| Quantum State (n) | Energy (Joule) |
+| --- | --- |
+| 1 | 6.02e-20 |
+| 2 | 2.41e-19 |
+| 3 | 5.42e-19 |
+
+## Conclusion
+This project demonstrates the behavior of a quantum particle in a 1D infinite potential well. The wavefunctions and probability densities exhibit distinct patterns for different quantum states, and the energy levels.
+
+## Collaboration
+
+Feel free to use this codebase for your projects. If you want to talk more about this project or have found bugs, create a pull request or contact me on **pujantamang92@gmail.com**.
